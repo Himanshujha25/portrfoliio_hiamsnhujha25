@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #e6ffe6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .experience-container {
+            background-color: #28a745;
+            color: white;
+            padding: 50px;
+            border-radius: 15px;
+            max-width: 800px;
+            width: 90%;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 2s ease-in-out, zoomIn 2s ease;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            animation: slideDown 1.5s ease;
+        }
+
+        .experience-item {
+            background-color: #fff;
+            color: #28a745;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            position: relative;
+            animation: slideUp 1.5s ease forwards;
+            opacity: 0;
+        }
+
+        .experience-item:nth-child(2) {
+            animation-delay: 0.5s;
+        }
+
+        .experience-item:nth-child(3) {
+            animation-delay: 1s;
+        }
+
+        .experience-item:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        h2 {
+            margin: 0 0 10px;
+            font-size: 1.8rem;
+        }
+
+        p {
+            margin: 0;
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .experience-date {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #28a745;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes zoomIn {
+            from { transform: scale(0.8); }
+            to { transform: scale(1); }
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="experience-container">
+        <h1>My Experience</h1>
+
+        <div class="experience-item">
+            <h2>Web Developer at ABC Company</h2>
+            <div class="experience-date">June 2021 - Present</div>
+            <p>Worked on developing and maintaining several front-end and back-end systems for company projects. Led a team of 5 developers to create dynamic and responsive websites using technologies like HTML, CSS, JavaScript, and React.</p>
+        </div>
+
+        <div class="experience-item">
+            <h2>Intern at XYZ Solutions</h2>
+            <div class="experience-date">Jan 2020 - May 2021</div>
+            <p>Assisted in building e-commerce platforms and created reusable code libraries to reduce duplication and improve development efficiency. Gained experience in both front-end and back-end development using Node.js, MongoDB, and Express.</p>
+        </div>
+
+        <div class="experience-item">
+            <h2>Freelance Web Designer</h2>
+            <div class="experience-date">Sept 2019 - Dec 2019</div>
+            <p>Designed and developed custom websites for various clients using WordPress and Bootstrap. Ensured cross-browser compatibility and enhanced the user experience with modern, interactive designs.</p>
+        </div>
+    </div>
+
+</body>
+</html>

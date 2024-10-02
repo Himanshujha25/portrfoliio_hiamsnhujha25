@@ -1,0 +1,82 @@
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white; /* Text color */
+    padding: 1rem; /* Padding around the text */
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    margin-right: 50px;
+}
+
+.marquee-text {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    background-color: black;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar .nav-link {
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+    color: #ffd700;
+}
+
+.card {
+    border: 2px solid #007bff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fixed-image {
+    margin-right: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.section-title {
+    margin: 30px 0 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: white;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #ffd700;
+}
